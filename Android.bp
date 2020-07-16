@@ -43,6 +43,7 @@ java_test {
     libs: [
         "junit",
     ],
+    test_suites: ["general-tests"],
 }
 
 // Device tests: atest S2GeometryLibraryJavaTests
