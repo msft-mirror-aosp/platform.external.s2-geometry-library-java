@@ -14,10 +14,6 @@
 // limitations under the License.
 //
 
-package {
-    default_visibility: ["//system/timezone"],
-}
-
 // A non-jarjar'd version of the Java S2 geometry lib.
 java_library {
     name: "s2-geometry-library-java",
