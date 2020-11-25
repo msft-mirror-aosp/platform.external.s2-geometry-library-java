@@ -14,14 +14,17 @@
 // limitations under the License.
 //
 
-// A non-jarjar'd version of the Java S2 geometry lib.
+// The Java S2 geometry lib.
 java_library {
     name: "s2-geometry-library-java",
     host_supported: true,
-    sdk_version: "current",
+    sdk_version: "30",
     srcs: ["src/**/*.java"],
     static_libs: [
         "guava",
+    ],
+    apex_available: [
+        "com.android.geotz",
     ],
 }
 
