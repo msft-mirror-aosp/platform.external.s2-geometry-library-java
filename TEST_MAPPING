@@ -1,8 +1,0 @@
-{
-  "presubmit": [
-    {
-      "name": "s2-geometry-library-java-tests",
-      "host": true
-    }
-  ]
-}
